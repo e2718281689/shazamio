@@ -1,0 +1,10 @@
+name: shazamio
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - ffmpeg
+  - libiconv
+  - musicbrainzngs
+  - pykakasi
+prefix: /home/cjia/miniconda3/envs/shazamio
