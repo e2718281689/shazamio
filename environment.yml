@@ -5,6 +5,10 @@ dependencies:
   - python=3.10
   - ffmpeg
   - libiconv
-  - musicbrainzngs
   - pykakasi
+  - aiohttp
+  - pip:
+    - musicbrainzngs
+    - requests
+    - shazamio
 prefix: /home/cjia/miniconda3/envs/shazamio
